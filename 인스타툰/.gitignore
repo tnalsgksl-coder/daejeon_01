@@ -1,0 +1,13 @@
+# 동영상은 용량이 커서 GitHub 대신 클라우드 드라이브에 보관
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# 이 PC 전용 Claude 설정
+.claude/settings.local.json
+
+# Windows가 자동으로 만드는 파일
+Thumbs.db
+desktop.ini
+~$*

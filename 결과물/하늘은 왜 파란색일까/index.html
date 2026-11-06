@@ -1,0 +1,73 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>하늘은 왜 파란색일까?</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jua&family=Gowun+Dodum&display=swap">
+<style>
+/* Layout: one centered column — video first, then a short answer and a chapter list that seeks the video */
+:root{
+  --bg:#eaf4ff; --surface:#ffffff; --fg:#13284a; --muted:#4e6688; --accent:#1e6fe0; --line:#cfe0f5;
+  --display:'Jua','Malgun Gothic',sans-serif; --body:'Gowun Dodum','Malgun Gothic',sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#0c1430;--surface:#141e42;--fg:#e8f0ff;--muted:#9fb3d6;--accent:#6aa8ff;--line:#26335f;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0c1430;--surface:#141e42;--fg:#e8f0ff;--muted:#9fb3d6;--accent:#6aa8ff;--line:#26335f;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:17px;line-height:1.65}
+.wrap{max-width:880px;margin:0 auto;padding-block:32px 56px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:28px}
+h1{font-family:var(--display);font-weight:400;font-size:clamp(30px,6vw,46px);line-height:1.2;margin:0;text-wrap:balance}
+.lede{margin:6px 0 0;color:var(--muted)}
+video{display:block;width:100%;max-width:100%;aspect-ratio:16/9;border-radius:18px;background:#000;box-shadow:0 10px 30px rgba(20,60,130,.18)}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+@media (max-width:680px){.grid{grid-template-columns:1fr}}
+h2{font-family:var(--display);font-weight:400;font-size:24px;margin:0 0 10px}
+.answer p{margin:0 0 12px;max-width:65ch}
+.answer b{color:var(--accent);font-weight:700}
+ol{list-style:none;margin:0;padding:0;display:grid;gap:4px}
+button.ch{width:100%;display:flex;gap:14px;align-items:baseline;text-align:left;background:none;border:0;border-radius:10px;padding:8px 10px;color:var(--fg);font:inherit;cursor:pointer}
+button.ch:hover{background:var(--surface)}
+button.ch:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+button.ch[aria-current="true"]{background:var(--surface);color:var(--accent)}
+.t{font-variant-numeric:tabular-nums;color:var(--muted);min-width:3.2em;font-size:15px}
+.note{font-size:14px;color:var(--muted);margin:0}
+</style>
+
+<main class="wrap">
+  <header>
+    <h1>하늘은 왜 파란색일까?</h1>
+    <p class="lede">햇빛과 공기 분자가 만드는 색, 레일리 산란을 1분 47초 애니메이션으로 설명해요.</p>
+  </header>
+
+  <video id="v" src="sky.mp4" controls playsinline preload="metadata"></video>
+
+  <div class="grid">
+    <section class="answer">
+      <h2>한 줄 답</h2>
+      <p>햇빛에는 여러 색이 섞여 있는데, 공기 분자는 <b>파장이 짧은 파란빛</b>을 훨씬 많이 사방으로 흩뜨려요.</p>
+      <p>산란 세기는 파장의 네제곱에 반비례해서(1/λ⁴), 파란빛(약 450nm)은 빨간빛(약 700nm)보다 약 6배 더 많이 흩어져요. 흩어진 파란빛이 하늘 모든 방향에서 눈으로 들어오기 때문에 하늘이 파랗게 보여요.</p>
+      <p class="note">소리 있는 영상이에요. 재생 버튼을 누르면 배경음악이 함께 나와요.</p>
+    </section>
+    <section>
+      <h2>장면</h2>
+      <ol id="chapters"></ol>
+    </section>
+  </div>
+</main>
+
+<script>
+const CH=[[0,'시작'],[7,'햇빛은 여러 색이 섞인 빛'],[19,'색마다 다른 파장'],[31,'레일리 산란'],[47,'산란 세기 ∝ 1/파장⁴'],[58,'파란빛이 눈에 들어오기까지'],[71,'왜 보라색이 아닐까'],[83,'노을이 붉은 이유'],[97,'정리']];
+const v=document.getElementById('v'),ol=document.getElementById('chapters');
+const fmt=s=>Math.floor(s/60)+':'+String(s%60).padStart(2,'0');
+const btns=CH.map(([s,n])=>{const li=document.createElement('li'),b=document.createElement('button');b.className='ch';b.type='button';
+  b.innerHTML=`<span class="t">${fmt(s)}</span><span>${n}</span>`;b.onclick=()=>seek(s);li.appendChild(b);ol.appendChild(li);return b});
+function mark(){const t=v.currentTime;let k=0;CH.forEach(([s],i)=>{if(t>=s)k=i});btns.forEach((b,i)=>b.setAttribute('aria-current',i===k))}
+v.addEventListener('timeupdate',mark);v.addEventListener('seeked',mark);mark();
+// Load the whole file as a blob so seeking works even when the host has no range support
+let loaded=false,pending=null;
+function go(s){v.currentTime=s;v.play().catch(()=>{});mark()}
+function seek(s){if(loaded)go(s);else{pending=s;if(v.readyState>=1)go(s)}}
+fetch('sky.mp4').then(r=>{if(!r.ok)throw 0;return r.blob()}).then(b=>{
+  const t=v.currentTime,playing=!v.paused;v.src=URL.createObjectURL(b);
+  v.addEventListener('loadedmetadata',()=>{loaded=true;const s=pending!=null?pending:t;if(s)v.currentTime=s;if(playing||pending!=null)v.play().catch(()=>{});pending=null;mark()},{once:true});
+}).catch(()=>{loaded=true});
+window.__seek=seek;
+</script>
+
+</body></html>

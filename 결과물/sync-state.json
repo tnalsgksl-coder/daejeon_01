@@ -1,0 +1,75 @@
+{
+  "about": "claude.ai 아티팩트 자동 백업 기록. 매일 17시 예약 작업이 이 파일로 새로 생기거나 바뀐 아티팩트를 찾습니다.",
+  "artifacts": [
+    {
+      "url": "https://claude.ai/artifact/HVLr7kHVM7PyY9SJQA3wVC",
+      "title": "선생님의 감수 라인 제안서",
+      "folder": "선생님의 감수 라인 제안서",
+      "kind": "page",
+      "version": "1793260877-e5b1",
+      "lastSynced": "2026-11-02"
+    },
+    {
+      "url": "https://claude.ai/artifact/8pRq7USnjasPyNrRJFaDUR",
+      "title": "AI 일본어 교육 영상 에이전트 구매 제안",
+      "folder": "AI 일본어 교육 영상 에이전트 구매 제안",
+      "kind": "page",
+      "version": "1793241924-beb0",
+      "lastSynced": "2026-11-02"
+    },
+    {
+      "url": "https://claude.ai/artifact/ThBMWXSU78NkY1w9B3Pc7R",
+      "title": "하늘은 왜 파란색일까? 인스타툰",
+      "folder": "하늘은 왜 파란색일까 인스타툰",
+      "kind": "page",
+      "version": "1793340303-fdaa",
+      "lastSynced": "2026-11-02"
+    },
+    {
+      "url": "https://claude.ai/artifact/8NscmCXjSQXfZBFy5PSK5X",
+      "title": "하늘은 왜 파란색일까?",
+      "folder": "하늘은 왜 파란색일까",
+      "kind": "page",
+      "version": "1793340421-56d2",
+      "lastSynced": "2026-11-02"
+    },
+    {
+      "url": "https://claude.ai/artifact/8L96i3DUrSQHZfKkAdGtZd",
+      "title": "대전 우주선 한울호 출시",
+      "folder": "대전 우주선 한울호 출시",
+      "kind": "Slides",
+      "version": "1793325712-3886",
+      "lastSynced": "2026-11-02"
+    },
+    {
+      "url": "https://claude.ai/artifact/VtFHhEBhCK6FCZ7zSxxV3J",
+      "title": "기획의 정석 6컷툰",
+      "folder": "기획의 정석 6컷툰",
+      "kind": "Design",
+      "version": "1793587749-37ed",
+      "lastSynced": "2026-11-02"
+    },
+    {
+      "url": "https://claude.ai/artifact/9yxwVhucB53FoDvPFoSstX",
+      "title": "일본어 교육 영상 AI 에이전트 설계서",
+      "folder": "일본어 교육 영상 AI 에이전트 설계서",
+      "kind": "Docs",
+      "version": "1793237546-6d1a",
+      "docs": [
+        { "tab": "d15d99d7-7443", "rev": 10, "file": "일본어 교육 영상 AI 에이전트 설계서.md" }
+      ],
+      "lastSynced": "2026-11-02"
+    },
+    {
+      "url": "https://claude.ai/artifact/JN6cL5xXKy4z2NmsE4cu5z",
+      "title": "역할별 프롬프트 세트 (총괄 매니저 + 13개 역할)",
+      "folder": "역할별 프롬프트 세트 (총괄 매니저 + 13개 역할)",
+      "kind": "Docs",
+      "version": "1793237572-2273",
+      "docs": [
+        { "tab": "dcb7dd45-7f2d", "rev": 11, "file": "역할별 프롬프트 세트 (총괄 매니저 + 13개 역할).md" }
+      ],
+      "lastSynced": "2026-11-02"
+    }
+  ]
+}
