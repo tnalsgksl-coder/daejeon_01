@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300" role="img" aria-label="인스타툰 - 과학 상식 인스타툰">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#082F49"/>
+      <stop offset="1" stop-color="#0F172A"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.85" cy="0.15" r="0.6">
+      <stop offset="0" stop-color="#38BDF8" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="r"><rect width="600" height="300" rx="24"/></clipPath>
+  </defs>
+  <g clip-path="url(#r)">
+    <rect width="600" height="300" fill="url(#bg)"/>
+    <rect width="600" height="300" fill="url(#glow)"/>
+    <g stroke="#7DD3FC" stroke-width="1.5">
+      <rect x="436" y="36" width="56" height="56" rx="10" fill="#38BDF8" fill-opacity="0.45"/>
+      <rect x="500" y="36" width="56" height="56" rx="10" fill="none" stroke-opacity="0.7"/>
+      <rect x="436" y="100" width="56" height="56" rx="10" fill="none" stroke-opacity="0.7"/>
+      <rect x="500" y="100" width="56" height="56" rx="10" fill="#38BDF8" fill-opacity="0.2"/>
+    </g>
+    <circle cx="464" cy="64" r="9" fill="#E0F2FE"/>
+    <path d="M512 140 Q528 118 544 140" fill="none" stroke="#E0F2FE" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <rect x="0.5" y="0.5" width="599" height="299" rx="23.5" fill="none" stroke="#FFFFFF" stroke-opacity="0.09"/>
+  <text x="40" y="60" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="700" letter-spacing="3" fill="#7DD3FC">04 · INSTATOON</text>
+  <text x="40" y="140" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Segoe UI', sans-serif" font-size="44" font-weight="800" letter-spacing="-1" fill="#F8FAFC">인스타툰</text>
+  <g font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Segoe UI', sans-serif" font-size="19" fill="#CBD5E1">
+    <text x="40" y="186">과학 상식을 4~6컷으로 푸는 인스타툰</text>
+    <text x="40" y="216">기획툰 · 하늘툰 · 하품툰</text>
+  </g>
+  <circle cx="552" cy="252" r="20" fill="none" stroke="#F8FAFC" stroke-opacity="0.35" stroke-width="1.5"/>
+  <path d="M544 252 H560 M554 246 L560 252 L554 258" fill="none" stroke="#F8FAFC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

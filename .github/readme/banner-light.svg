@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-label="나의 AI 작업 모음 - Claude와 함께 기획하고, 쓰고, 그리고, 만든 것들">
+  <defs>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#0F172A" fill-opacity="0.09"/>
+    </pattern>
+    <radialGradient id="g1" cx="0.8" cy="0.2" r="0.55">
+      <stop offset="0" stop-color="#D97757" stop-opacity="0.36"/>
+      <stop offset="1" stop-color="#D97757" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="g2" cx="0.97" cy="1" r="0.5">
+      <stop offset="0" stop-color="#8B5CF6" stop-opacity="0.26"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="g3" cx="0.02" cy="1" r="0.45">
+      <stop offset="0" stop-color="#38BDF8" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="clip"><rect width="1280" height="360" rx="28"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="1280" height="360" fill="#FAFAF9"/>
+    <rect width="1280" height="360" fill="url(#dots)"/>
+    <rect width="1280" height="360" fill="url(#g1)"/>
+    <rect width="1280" height="360" fill="url(#g2)"/>
+    <rect width="1280" height="360" fill="url(#g3)"/>
+    <g transform="translate(1050 180)" fill="none" stroke="#0F172A" stroke-opacity="0.13" stroke-width="1.5">
+      <circle r="62"/>
+      <circle r="112" stroke-dasharray="4 8"/>
+      <circle r="162"/>
+    </g>
+    <g transform="translate(1050 180)">
+      <circle r="22" fill="#D97757"/>
+      <circle r="34" fill="none" stroke="#D97757" stroke-opacity="0.35" stroke-width="2"/>
+      <circle cx="79" cy="-79" r="9" fill="#8B5CF6"/>
+      <circle cx="-112" cy="0" r="7" fill="#38BDF8"/>
+      <circle cx="44" cy="44" r="6" fill="#0F172A" fill-opacity="0.7"/>
+      <circle cx="-115" cy="114" r="8" fill="#10B981"/>
+      <circle cx="140" cy="81" r="5" fill="#F59E0B"/>
+    </g>
+  </g>
+  <rect x="0.5" y="0.5" width="1279" height="359" rx="27.5" fill="none" stroke="#0F172A" stroke-opacity="0.08"/>
+  <text x="72" y="104" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="18" font-weight="700" letter-spacing="4" fill="#C2410C">MY AI WORKSPACE</text>
+  <text x="72" y="190" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Segoe UI', sans-serif" font-size="72" font-weight="800" letter-spacing="-1.5" fill="#0F172A">나의 AI 작업 모음</text>
+  <text x="72" y="242" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Segoe UI', sans-serif" font-size="26" font-weight="500" fill="#475569">Claude와 함께 기획하고, 쓰고, 그리고, 만든 것들</text>
+  <g font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="600" text-anchor="middle" fill="#334155">
+    <rect x="72" y="282" width="80" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.85" stroke="#0F172A" stroke-opacity="0.14"/>
+    <text x="112" y="303">Agent</text>
+    <rect x="162" y="282" width="70" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.85" stroke="#0F172A" stroke-opacity="0.14"/>
+    <text x="197" y="303">Blog</text>
+    <rect x="242" y="282" width="116" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.85" stroke="#0F172A" stroke-opacity="0.14"/>
+    <text x="300" y="303">Instatoon</text>
+    <rect x="368" y="282" width="116" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.85" stroke="#0F172A" stroke-opacity="0.14"/>
+    <text x="426" y="303">Artifacts</text>
+    <rect x="494" y="282" width="126" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.85" stroke="#0F172A" stroke-opacity="0.14"/>
+    <text x="557" y="303">References</text>
+  </g>
+</svg>

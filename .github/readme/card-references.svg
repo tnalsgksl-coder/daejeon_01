@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300" role="img" aria-label="자료 - 참고 자료">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2A1A05"/>
+      <stop offset="1" stop-color="#0F172A"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.85" cy="0.15" r="0.6">
+      <stop offset="0" stop-color="#F59E0B" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#F59E0B" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="r"><rect width="600" height="300" rx="24"/></clipPath>
+  </defs>
+  <g clip-path="url(#r)">
+    <rect width="600" height="300" fill="url(#bg)"/>
+    <rect width="600" height="300" fill="url(#glow)"/>
+    <g stroke="#FCD34D" stroke-width="1.5">
+      <rect x="440" y="60" width="22" height="96" rx="4" fill="#F59E0B" fill-opacity="0.5"/>
+      <rect x="468" y="76" width="22" height="80" rx="4" fill="none" stroke-opacity="0.75"/>
+      <rect x="496" y="52" width="22" height="104" rx="4" fill="#F59E0B" fill-opacity="0.25"/>
+      <rect x="530" y="70" width="22" height="88" rx="4" fill="none" stroke-opacity="0.75" transform="rotate(12 541 158)"/>
+    </g>
+    <line x1="430" y1="157" x2="566" y2="157" stroke="#FCD34D" stroke-opacity="0.6" stroke-width="1.5"/>
+  </g>
+  <rect x="0.5" y="0.5" width="599" height="299" rx="23.5" fill="none" stroke="#FFFFFF" stroke-opacity="0.09"/>
+  <text x="40" y="60" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="700" letter-spacing="3" fill="#FCD34D">05 · REFERENCES</text>
+  <text x="40" y="140" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Segoe UI', sans-serif" font-size="44" font-weight="800" letter-spacing="-1" fill="#F8FAFC">자료</text>
+  <g font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Segoe UI', sans-serif" font-size="19" fill="#CBD5E1">
+    <text x="40" y="186">프로필 캐릭터 · 디자인 레퍼런스</text>
+    <text x="40" y="216">기획 메모와 PDF 문서</text>
+  </g>
+  <circle cx="552" cy="252" r="20" fill="none" stroke="#F8FAFC" stroke-opacity="0.35" stroke-width="1.5"/>
+  <path d="M544 252 H560 M554 246 L560 252 L554 258" fill="none" stroke="#F8FAFC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

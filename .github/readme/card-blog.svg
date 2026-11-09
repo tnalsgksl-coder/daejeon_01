@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300" role="img" aria-label="블로그 자동화 - 네이버 블로그 가이드와 글">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#052E2B"/>
+      <stop offset="1" stop-color="#0F172A"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.85" cy="0.15" r="0.6">
+      <stop offset="0" stop-color="#10B981" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#10B981" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="r"><rect width="600" height="300" rx="24"/></clipPath>
+  </defs>
+  <g clip-path="url(#r)">
+    <rect width="600" height="300" fill="url(#bg)"/>
+    <rect width="600" height="300" fill="url(#glow)"/>
+    <rect x="440" y="36" width="112" height="124" rx="12" fill="#10B981" fill-opacity="0.12" stroke="#6EE7B7" stroke-opacity="0.7" stroke-width="1.5"/>
+    <rect x="456" y="56" width="58" height="9" rx="4.5" fill="#34D399"/>
+    <g fill="#D1FAE5" fill-opacity="0.75">
+      <rect x="456" y="78" width="80" height="6" rx="3"/>
+      <rect x="456" y="93" width="68" height="6" rx="3"/>
+      <rect x="456" y="108" width="80" height="6" rx="3"/>
+      <rect x="456" y="123" width="50" height="6" rx="3"/>
+    </g>
+    <path d="M520 150 L548 122 L556 130 L528 158 L518 160 Z" fill="#6EE7B7" fill-opacity="0.9"/>
+  </g>
+  <rect x="0.5" y="0.5" width="599" height="299" rx="23.5" fill="none" stroke="#FFFFFF" stroke-opacity="0.09"/>
+  <text x="40" y="60" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="700" letter-spacing="3" fill="#6EE7B7">03 · BLOG</text>
+  <text x="40" y="140" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Segoe UI', sans-serif" font-size="44" font-weight="800" letter-spacing="-1" fill="#F8FAFC">블로그 자동화</text>
+  <g font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Segoe UI', sans-serif" font-size="19" fill="#CBD5E1">
+    <text x="40" y="186">네이버 블로그 문체 · SEO 가이드</text>
+    <text x="40" y="216">가이드 기준으로 쓴 덱카닉정 블로그 글</text>
+  </g>
+  <circle cx="552" cy="252" r="20" fill="none" stroke="#F8FAFC" stroke-opacity="0.35" stroke-width="1.5"/>
+  <path d="M544 252 H560 M554 246 L560 252 L554 258" fill="none" stroke="#F8FAFC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

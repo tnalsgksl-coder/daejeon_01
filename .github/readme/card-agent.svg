@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="나의_AI업무 - 주제 조사 AI 에이전트">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1C1917"/>
+      <stop offset="1" stop-color="#0C0A09"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.82" cy="0.25" r="0.5">
+      <stop offset="0" stop-color="#D97757" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#D97757" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="1" cy="1" r="0.4">
+      <stop offset="0" stop-color="#8B5CF6" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.1" fill="#FFFFFF" fill-opacity="0.05"/>
+    </pattern>
+    <clipPath id="r"><rect width="1200" height="300" rx="24"/></clipPath>
+  </defs>
+  <g clip-path="url(#r)">
+    <rect width="1200" height="300" fill="url(#bg)"/>
+    <rect width="1200" height="300" fill="url(#dots)"/>
+    <rect width="1200" height="300" fill="url(#glow)"/>
+    <rect width="1200" height="300" fill="url(#glow2)"/>
+    <g stroke="#FAFAF9" stroke-opacity="0.25" stroke-width="1.5">
+      <line x1="980" y1="140" x2="890" y2="78"/>
+      <line x1="980" y1="140" x2="1040" y2="62"/>
+      <line x1="980" y1="140" x2="1095" y2="150"/>
+      <line x1="980" y1="140" x2="900" y2="210"/>
+      <line x1="980" y1="140" x2="1030" y2="230"/>
+      <line x1="890" y1="78" x2="1040" y2="62" stroke-dasharray="3 6"/>
+      <line x1="1095" y1="150" x2="1030" y2="230" stroke-dasharray="3 6"/>
+    </g>
+    <circle cx="980" cy="140" r="30" fill="#D97757" fill-opacity="0.18"/>
+    <circle cx="980" cy="140" r="17" fill="#D97757"/>
+    <g fill="#FAFAF9" fill-opacity="0.88">
+      <circle cx="890" cy="78" r="8"/>
+      <circle cx="1040" cy="62" r="8"/>
+      <circle cx="1095" cy="150" r="8"/>
+      <circle cx="900" cy="210" r="8"/>
+      <circle cx="1030" cy="230" r="8"/>
+    </g>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="299" rx="23.5" fill="none" stroke="#FFFFFF" stroke-opacity="0.09"/>
+  <text x="48" y="64" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="700" letter-spacing="3" fill="#F0A285">01 · AGENT</text>
+  <text x="48" y="146" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Segoe UI', sans-serif" font-size="52" font-weight="800" letter-spacing="-1" fill="#FAFAF9">나의_AI업무</text>
+  <g font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Segoe UI', sans-serif" font-size="21" fill="#D6D3D1">
+    <text x="48" y="194">비서 · 조사 · 요약 · 영상 직원에게 일을 나눠 맡기는 AI 에이전트</text>
+    <text x="48" y="226">직원 지시서 4종, 조사 자료와 결과, 결재와 작업 기록</text>
+  </g>
+  <circle cx="1140" cy="252" r="20" fill="none" stroke="#FAFAF9" stroke-opacity="0.35" stroke-width="1.5"/>
+  <path d="M1132 252 H1148 M1142 246 L1148 252 L1142 258" fill="none" stroke="#FAFAF9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
